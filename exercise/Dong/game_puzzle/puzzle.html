@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Puzzle</title>
+    <link rel="stylesheet" href="puzzle.css">
+</head>
+<body>
+<div><img src="image/cat_1.png" id="img1" onclick="changeImg(this.id);"></div>
+<div><img src="image/football_player_1.jpg" id="img2" onclick="changeImg(this.id);"></div>
+<div><img src="image/hot_girl_1.jpg" id="img3" onclick="changeImg(this.id);"></div>
+<script>
+    function changeImg(x) {
+        let img = document.getElementById(x);
+        // console.log(img);
+        if (img.src.match('image/cat_1.png')) {
+            img.src = 'image/football_player_1.jpg';
+        } else if (img.src.match('image/football_player_1.jpg')) {
+            img.src = 'image/hot_girl_1.jpg';
+        } else {
+            img.src = 'image/cat_1.png';
+        }
+        compareImg();
+    }
+
+    function compareImg() {
+        let a = document.getElementById('img1').src;
+        let b = document.getElementById('img2').src;
+        let c = document.getElementById('img3').src;
+        if (a === b && b === c) {
+            alert('done');
+        }
+    }
+</script>
+</body>
+</html>

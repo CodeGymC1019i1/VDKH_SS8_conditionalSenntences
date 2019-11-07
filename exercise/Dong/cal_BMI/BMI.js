@@ -1,7 +1,8 @@
+let weight = parseFloat(prompt('nhập vào cân nặng - kg'));
+let height = parseFloat(prompt('nhập vào chiều cao - m'));
+let BMI = weight / Math.pow(height,2);
 function calBMI() {
-    let weight = parseFloat(prompt('nhập vào cân nặng - kg'));
-    let height = parseFloat(prompt('nhập vào chiều cao - m'));
-    let BMI = weight / Math.pow(height,2);
+    // console.log(weight);
     let result;
     if (BMI < 18.5) {
         result = 'underweight';
