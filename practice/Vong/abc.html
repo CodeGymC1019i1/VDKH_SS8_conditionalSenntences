@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<br> Nhập tháng
+<input type="number" id="month"></br>
+<input type="button" value="Tính số ngày"onclick="tinhngay()";></br>
+<span id="text"</span>
+<script>
+    function tinhngay() {
+        let month=document.getElementById('month').value;
+        let m=parseInt(month)
+        switch (m) {
+            case 1 ;
+            case 3 ;
+            case 5 ;
+            case 7 ;
+            case 8 ;
+            case 10 ;
+            case 12 ;
+            alert("tháng có 31d");
+            break;
+            case 4 ;
+            case 6 ;
+            case 9 ;
+            case 11 ;
+            alert("tháng có 30d");
+                break:
+            case 2;
+            alert("tháng có 28 or 29d");
+            default;
+               alert("tháng nhập sai giá trị");
+               break;
+                 {
+
+                }
+
+        }
+        
+    }
+</script>
+
+</body>
+</html>
