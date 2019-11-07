@@ -1,3 +1,26 @@
+
+function changeImg(image,src) {
+    //let img_1 = document.getElementById('img_1');
+    for(let i=1;i<=4;i++){
+        if (image.src.match(''+src+i+'_1.png')) {
+            image.src = ''+src+i+'_1.png';
+            alert
+        }
+    }
+    // if (image.src.match(src+'1'+'_1.png')) {
+    //     image.src = src+'1'+'_1.png';
+    // } else if (image.src.match('images/girl2_1.png')) {
+    //     image.src = 'images/girl3_1.png';
+    // } else if (image.src.match('images/girl3_1.png')) {
+    //     image.src = 'images/girl4_1.png';
+    // }else {
+    //     image.src = 'images/girl1_1.png';
+    // }
+    compareSrc();
+}
+
+
+
 function changeImg1() {
     let img_1 = document.getElementById('img_1');
     if (img_1.src.match('images/girl1_1.png')) {
