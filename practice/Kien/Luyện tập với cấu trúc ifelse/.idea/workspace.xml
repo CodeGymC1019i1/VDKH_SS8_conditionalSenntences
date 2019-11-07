@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74c7d16a-ea1a-44af-9a9c-1462625b2889" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Kiểm tra năm nhuận/kiemtranamnhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Luyện tập với cấu trúc if...else...if/luyentapvoicautrucifelseif.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../[Bai_tap]_VDKH/Kiên/Biến, kiểu dữ liệu và toán tử/chuongtrinhdoinhietdo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../[Bai_tap]_VDKH/Kiên/Biến, kiểu dữ liệu và toán tử/cshinhtron.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../[Bai_tap]_VDKH/Kiên/Biến, kiểu dữ liệu và toán tử/diemtrungbinh3mon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../[Bai_tap]_VDKH/Kiên/Ứngdụngchuyểnđổitiềntệ/Ứngdụngchuyểnđổitiềntệ.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1TGbHVmgfOq0DtIrsrd5s9PTZfg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74c7d16a-ea1a-44af-9a9c-1462625b2889" name="Default Changelist" comment="" />
+      <created>1573089292060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573089292060</updated>
+      <workItem from="1573089295180" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
