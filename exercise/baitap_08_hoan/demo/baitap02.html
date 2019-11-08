@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>ung dung may tinh...!</title>
+    <link rel="stylesheet" href="css/baitap02.css" type="text/css">
+</head>
+
+<body>
+
+    <form name="form">
+        <input id="input" class="textview" name="textview" placeholder="0">
+    </form>
+
+    <table id="table">
+        <tr>
+            <td class="number" value="7" type="button" onclick="insert(7)">7</td>
+            <td class="number" value="8" type="button" onclick="insert(8)">8</td>
+            <td class="number" value="9" type="button" onclick="insert(9)">9</td>
+            <td class="number" value="+" type="button" onclick="insert(' + ')">+</td>
+            <td class="number" value="" type="button" onclick="reset();">C</td>
+        </tr>
+
+        <tr>
+            <td class="number" value="4" type="button" onclick="insert(4)">4</td>
+            <td class="number" value="5" type="button" onclick="insert(5)">5</td>
+            <td class="number" value="6" type="button" onclick="insert(6)">6</td>
+            <td class="number" value="-" type="button" onclick="insert(' - ')">-</td>
+            <td class="number" value="" type="button" onclick="back();">Del</td>
+        </tr>
+
+        <tr>
+            <td class="number" value="1" type="button" onclick="insert(1)">1</td>
+            <td class="number" value="2" type="button" onclick="insert(2)">2</td>
+            <td class="number" value="3" type="button" onclick="insert(3)">3</td>
+            <td class="number" value="*" type="button" onclick="insert(' * ')">x</td>
+            <td class="number" value="" type="button" onclick="insert(3.14)">PI</td>
+        </tr>
+
+        <tr>
+            <td class="number" value="0" type="button" onclick="insert(0)">0</td>
+            <td class="number" value="9" type="button" onclick="insert('.')">.</td>
+            <td class="number" value="=" type="button" onclick="equal();">=</td>
+            <td class="number" value="/" type="button" onclick="insert(' / ')">/</td>
+            <td class="number" value="" type="button" onclick="closeApp()">X</td>
+        </tr>
+    </table>
+
+    <script src="./js/baitap02.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Tao ung dung chuyen doi tien te</title>
+        <link rel="stylesheet" href="./css/baitap_01.css">
+    </head>
+    <body>
+    <div id="container">
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <h3>Amount</h3>
+                    <input id="input" type="text" placeholder="Enter amount"/>
+                </td>
+
+                <td>
+                    <h3>From Currency</h3>
+                    <select id="from-currency">
+                        <option value="1">USD</option>
+                        <option value="23000">VND</option>
+                        <option value="15700">AUD</option>
+                        <option value="17300">CAD</option>
+                        <option value="25600">EUR</option>
+                    </select>
+                </td>
+
+                <td>
+                    <h3>To Currency</h3>
+                    <select id="to-currency">
+                        <option value="1">USD</option>
+                        <option value="23000">VND</option>
+                        <option value="15700">AUD</option>
+                        <option value="17000">CAD</option>
+                        <option value="25600">EUR</option>
+                    </select>
+                </td>
+
+                <td collapse="2">
+                    <button type="button" onclick="changeCurrency();">Convert</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4" id="result">Result....</td>
+            </tr>
+        </table>
+    </form>
+    </div>
+
+    <script src="js/baitap_01.js"></script>
+    </body>
+</html>
