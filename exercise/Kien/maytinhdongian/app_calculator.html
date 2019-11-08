@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="app_calculator.js"></script>
+    <link rel="stylesheet" href="app_calculator.css">
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td colspan="5"><input type="text" id="display" placeholder="Welcome to my calculator" readonly></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="2" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="3" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="sqr" onclick="sqrNumber()"></td>
+            <td><input type="reset" value="AC"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="5" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="6" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="+" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="Del" onclick="delString()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="8" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="9" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="-" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="&#8730" onclick="sqrtNumber()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="0" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="/" onclick="insertValueOfDisplay(this.value)"></td>
+            <td><input type="button" value="*" onclick="insertValueOfDisplay(this.value)"></td>
+            <td colspan="4"><input type="button" value="=" onclick="calc()" ></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
