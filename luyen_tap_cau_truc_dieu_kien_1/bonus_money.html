@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính tiền thưởng dựa theo doanh số bán hàng</title>
+</head>
+<body>
+<script type="text/javascript">
+    let name = prompt('nhập tên nhân viên cần tính hoa hồng ');
+    let sales = parseInt(prompt('nhập vào số lượng hàng hóa đã bán của ' + name));
+    let bonus = 0;
+    if (sales <= 0) {
+        alert('có bán được gì đâu mà phải tính');
+    } else {
+        if (sales < 50) {
+            bonus += 3;
+        } else if ((sales > 50) && (sales < 100)) {
+            bonus += 5;
+        } else if ((sales > 100) && (sales < 200)) {
+            bonus += 7;
+        } else {
+            bonus += 7;
+        }
+        alert(bonus);
+    }
+</script>
+</body>
+</html>

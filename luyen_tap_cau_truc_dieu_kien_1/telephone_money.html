@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tính tiền điện thoại tháng</title>
+</head>
+<body>
+<script type="text/javascript">
+    let phoneNumber = prompt('nhập số điện thoại cần tính tiền ');
+    let intranet_call = parseFloat(prompt('nhập số phút gọi nội mạng '));
+    let out_intranet_call = parseFloat(prompt('nhập số phút gọi ngoại mạng '));
+    let total = (620 * intranet_call) + (1020*out_intranet_call);
+    alert('tổng cước của thuê bao này là: '+total);
+</script>
+</body>
+</html>

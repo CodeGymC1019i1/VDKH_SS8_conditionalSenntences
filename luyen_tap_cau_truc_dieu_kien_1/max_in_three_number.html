@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm giá trị lớn nhất trong 3 số nhập vào</title>
+</head>
+<body>
+<script type="text/javascript">
+    let number_a = parseFloat(prompt('nhập số thứ nhất '));
+    let number_b = parseFloat(prompt('nhập số thứ hai '));
+    let number_c = parseFloat(prompt('nhập số thứ ba '));
+    let max = number_a;
+    if(number_b > max){
+        if (number_c > number_b){
+            max = number_c;
+        }else {
+            max = number_b;
+        }
+    }else if(number_c > max) {
+        max = number_c;
+    }
+    alert('số lớn nhất là: '+ max);
+</script>
+</body>
+</html>

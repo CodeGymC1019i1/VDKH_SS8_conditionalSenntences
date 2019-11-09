@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xếp hạng học lực dựa theo các điểm nhập vào</title>
+</head>
+<body>
+<script type='text/javascript'>
+    let name = prompt('nhập vào tên của học sinh: ');
+    let test = parseFloat(prompt('nhập vào điểm bài kiểm tra của ' + name));
+    let mid = parseFloat(prompt('nhập vào điểm thi giữa kì của ' + name));
+    let last = parseFloat(prompt('nhập vào điểm thì cuối kì của ' + name));
+    let string = 'học sinh ' + name + ' xếp loại ';
+    if ((10 < test) || (10 < mid) || (10 < last) || (0 > test) || (0 > mid) || (0 > last)) {
+        document.write('bạn nhập sai số điểm. Hãy nhập lại điểm số từ 0 đến 10 ');
+    } else if (test >= 8) {
+        if (mid >= 8) {
+            if (last >= 8) {
+                document.write(string + 'giỏi');
+            } else if ((last >= 6) && (last < 8)) {
+                document.write(string + 'khá');
+            } else {
+                document.write(string + 'yếu');
+            }
+        } else if ((mid >= 6) && (mid < 8)) {
+            document.write(string + 'khá');
+        } else {
+            document.write(string + 'yếu');
+        }
+    } else if ((test >= 6) && (test < 8)) {
+        document.write(string + 'khá');
+    } else {
+        document.write(string + 'yếu');
+    }
+    console.log(test);
+    console.log(mid);
+    console.log(last);
+</script>
+</body>
+</html>
